@@ -1,14 +1,8 @@
 {
   "python.defaultInterpreterPath": "/Users/vivekkhudaniya/Langchain/.venv/bin/python",
   "python.terminal.activateEnvironment": true,
-  "jupyter.kernels.filter": [
-    {
-      "path": "/usr/bin/python3",
-      "type": "pythonEnvironment"
-    },
-    {
-      "path": "/Library/Developer/CommandLineTools/usr/bin/python3",
-      "type": "pythonEnvironment"
-    }
+  "jupyter.kernels.excludePythonEnvironments": [
+    "/usr/bin/python3",
+    "/Library/Developer/CommandLineTools/usr/bin/python3"
   ]
 }

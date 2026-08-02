@@ -4,3 +4,5 @@ ipykernel
 langchain_community
 pypdf
 beautifulsoup4
+pymupdf
+arxiv<3
